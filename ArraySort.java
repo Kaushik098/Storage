@@ -1,6 +1,6 @@
 import java.util.*;
 public class ArraySrt{
-     public statis void main (String Args[]){
+     public static void main (String Args[]){
           Scanner sc=new Scanner(System.in);
           int n=sc.nextInt();
           int a[]=new int[n];
