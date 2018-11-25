@@ -1,0 +1,26 @@
+import javax.swing.*;
+
+public class Test {
+
+ public static void main(String args[]){
+    	  JFrame f=new JFrame();
+    	  JButton b= new JButton("Hello");
+    	  b.setBounds(300, 100, 100, 30);
+    	  final JTextField tf= new JTextField();
+    	  tf.setBounds(100, 100, 100, 20);
+    	 
+    	  b.addActionListener(new ActionListener(){
+    		  public void actionPerformed(ActionEvent e){
+    			  tf.setText("Self Motivate");
+    		  }
+    	  });
+    	  
+    	  f.add(b);
+    	  f.add(tf);
+    	 
+    	  f.setSize(1000, 1000);
+    	  f.setLayout(null);
+    	  f.setVisible(true);
+    	  
+      }
+}
